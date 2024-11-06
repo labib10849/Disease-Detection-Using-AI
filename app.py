@@ -18,7 +18,7 @@ heart_disease_model = pickle.load(open(f'{working_dir}/saved_models/heart_diseas
 with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System',
                            ['Diabetes Prediction', 'Heart Disease Prediction'],
-                           menu_icon='hospital-fill',
+                           menu_icon='heart-pulse-fill',
                            icons=['activity', 'heart'],
                            default_index=0)
 
